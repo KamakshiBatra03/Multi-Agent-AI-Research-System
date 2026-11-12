@@ -23,7 +23,7 @@ def web_search(query:str)->str:
                 """
         )
     return "\n---\n".join(output)
-#print(web_search.invoke("what is the latest news about war"))
+#print(web_search.invoke("what is the latest news about stock market"))
 
   
 @tool
@@ -38,4 +38,4 @@ def web_scraper(url:str)->str:
     except Exception as e:
         return f"could not scrape URL : {str(e)}"
 
-print(web_scraper.invoke("https://www.hindustantimes.com/photos/cricket/ind-vs-nz-2nd-odi-gurnoor-brar-stars-with-four-wicket-haul-as-india-edge-new-zealand-in-rain-hit-match-action-in-images-101794038032182.html"))
+#print(web_scraper.invoke("https://www.hindustantimes.com/photos/cricket/ind-vs-nz-2nd-odi-gurnoor-brar-stars-with-four-wicket-haul-as-india-edge-new-zealand-in-rain-hit-match-action-in-images-101794038032182.html"))
