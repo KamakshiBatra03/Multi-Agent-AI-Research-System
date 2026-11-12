@@ -1,0 +1,26 @@
+# Multi-Agent Research System
+# Install with: uv pip install -r requirements.txt
+#
+# Python: 3.11+ recommended
+
+# LangChain core and integrations
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langgraph
+
+# DuckDuckGo search tool
+ddgs
+
+# Web page fetching and HTML parsing (Beautiful Soup tool)
+requests
+beautifulsoup4
+
+# Environment variables and configuration
+python-dotenv
+pydantic
+typing-extensions
+
+# Optional: useful for token counting with some OpenAI models
+tiktoken
