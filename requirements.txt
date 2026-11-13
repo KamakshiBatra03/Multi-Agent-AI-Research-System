@@ -22,5 +22,8 @@ python-dotenv
 pydantic
 typing-extensions
 
+# Frontend
+streamlit
+
 # Optional: useful for token counting with some OpenAI models
 tiktoken
